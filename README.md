@@ -8,7 +8,7 @@ Instructions
 
 First, you'll need to clone the repo.
 
-    $ git clone https://github.com/AlessandroPierro/dataviz-project.git
+    $ git clone https://github.com/GiuliaMP/dataviz-project.git
     $ cd dataviz-project
 
 Now, you can setup an isolated environment with `conda`.
