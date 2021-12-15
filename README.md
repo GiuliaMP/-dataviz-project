@@ -13,8 +13,8 @@ First, you'll need to clone the repo.
 
 Now, you can setup an isolated environment with `conda`.
 
-    $ conda create -n great_project
-    $ conda activate great_project
+    $ conda create -n pyDataVizProject
+    $ conda activate pyDataVizProject
 
 Installing Packages
 --------------------
