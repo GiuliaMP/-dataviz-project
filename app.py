@@ -370,7 +370,7 @@ def make_figure_mod(destination_value, lat_coord, lon_coord, lat_start_coord, lo
                         )
     
     fig.update_layout(
-        title = dict (text= "Taxi <b>trajectories</b> show concentration in the <b>city center</b><br>",
+        title = dict (text= "Taxi <b>trajectories</b> show concentration in the <b>city perimeter</b><br>",
             xref="paper",
             x=0,
             font=dict(family=font_text,size=44, color=color_text)),
@@ -419,10 +419,10 @@ app.layout = html.Div([
             id = 'drop-opt',
             options = [{'label': 'Porto Campanha Train Station', 'value': 'train_PC'},
                        {'label': 'Aeroporto Francisco Sá Carneiro', 'value': 'airport'},
-                       {'label': 'Estádio do Dragão', 'value':'stadium'},
                        {'label': 'Hospital Santo António', 'value': 'hosp_SA'},
                        {'label': 'São João Universitary Hospital', 'value': 'hosp_SJ'},
                        {'label': 'Clínica Lusíadas Gaia', 'value': 'clinica'},
+                       {'label': 'Estádio do Dragão', 'value':'stadium'},
                        {'label': 'Shopping Center Itália', 'value': 'shopping'},
                        {'label': 'Cathédrale de Porto', 'value': 'cathedral'},
                        {'label': 'Casa Da Musica', 'value': 'music'}],
